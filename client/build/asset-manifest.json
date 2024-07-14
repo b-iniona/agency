@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.827337b1.css",
+    "main.js": "/static/js/main.b8b2e358.js",
+    "static/media/mobilebanner.png": "/static/media/mobilebanner.8232f2e0a1effffab112.png",
+    "static/media/contact.jpg": "/static/media/contact.0d3895b2ed31b2f343e7.jpg",
+    "static/media/successbanner.png": "/static/media/successbanner.1c9bd72f32b5ba2df576.png",
+    "static/media/successMobile.png": "/static/media/successMobile.e148e964a7726100c0be.png",
+    "static/media/mentorship.jpg": "/static/media/mentorship.efd62f989cdf453387d7.jpg",
+    "static/media/digitalMarketing.jpg": "/static/media/digitalMarketing.c1ff96563f4227786864.jpg",
+    "static/media/money.jpg": "/static/media/money.d64f633c7a4594c128eb.jpg",
+    "static/media/member.jpg": "/static/media/member.586bc6467eaa68e9fe2c.jpg",
+    "static/media/socialMediaManagement.jpg": "/static/media/socialMediaManagement.de7a01a4adbb4f0ed64d.jpg",
+    "static/media/bannergirl.png": "/static/media/bannergirl.e0fb55194654c0c87b12.png",
+    "static/media/bannerTablet.png": "/static/media/bannerTablet.1ec50d4400feb046c8a6.png",
+    "static/media/admin.jpg": "/static/media/admin.dbd9e2e83f31019bfa72.jpg",
+    "static/media/consultancy.jpg": "/static/media/consultancy.ea47042c57c2c8d2109a.jpg",
+    "static/media/contenCreate.jpg": "/static/media/contenCreate.63cc597cd656e21deb2c.jpg",
+    "static/media/successTablet.png": "/static/media/successTablet.47459ef15b2320a9a13a.png",
+    "index.html": "/index.html",
+    "main.827337b1.css.map": "/static/css/main.827337b1.css.map",
+    "main.b8b2e358.js.map": "/static/js/main.b8b2e358.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.827337b1.css",
+    "static/js/main.b8b2e358.js"
+  ]
+}

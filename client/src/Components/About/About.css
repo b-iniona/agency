@@ -1,0 +1,72 @@
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Varela Round', sans-serif;
+    position: relative;
+    
+}
+.about::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    text-shadow: 2px 2px 4px grey;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 250px;
+    height: 1px;
+    background-color: grey;
+}
+.aboutUs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Varela Round', sans-serif;
+    position: relative;
+
+}
+.aboutUs::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    text-shadow: 2px 2px 4px grey;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 1px;
+    background-color: grey;
+}
+.aboutDesc{
+    
+    
+    color: #444;
+    margin: 15px 5px;
+    font-family: 'Varela Round', sans-serif;
+    
+    font-size: 18px;
+
+}
+p{
+    line-height: 35px;
+}
+.aboutDesc::first-letter {
+  font-size: 2em;
+}
+.aboutWrapper{
+    
+    background-color: #faf6f6;
+}
+.seeMoreButton {
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  .seeMoreButton:hover {
+    color: white;
+    background-color: rgb(37, 92, 92);
+    
+  }

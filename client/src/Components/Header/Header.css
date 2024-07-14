@@ -1,0 +1,167 @@
+      .header {
+       
+        border-bottom: 1px solid #dbd0d0;
+        
+      }
+      .navbar{
+        background-color: white;
+      }
+      .brand{
+        font-family: 'Varela Round', sans-serif; 
+        
+        
+        text-decoration: none;
+        color: rgb(43, 105, 1);
+        
+        font-size: 22px;
+        margin-right: 45px;
+        height: 40px;
+        
+       }
+    .brand:hover{
+      color: black;
+    }
+      .navLinks{
+        /* text-transform: uppercase; */
+        font-weight: 600;
+        
+        }
+      .uppercase-link {
+        
+        transition: text-transform 1s; /* Add a smooth transition effect */
+        
+      }
+      
+      .uppercase-link:hover {
+        font-size: 19px;
+        border-bottom: 1px solid grey;
+      
+             }
+      .hover-link{
+        transition: text-transform 0.5s;
+      }  
+      .hover-link:hover{
+        
+        font-size: 27px;
+
+      }
+      .link:hover{
+        color: inherit;
+        @media (max-width:768) {
+  text-decoration: none;
+        }
+          
+        
+
+      }
+      .link{
+        margin-right: 20px;
+        
+        
+        font-family: 'Varela Round', sans-serif; 
+        font-weight: 400;
+        font-size: large;
+        justify-content: center;
+        align-items: center;
+        color: #444;
+        
+
+        
+         
+      }
+      .social_link{
+        text-decoration: none;
+        color: inherit;
+
+      }
+      .social_link:hover{
+        color:inherit;
+      }
+      .brand{
+        font-weight: 600;
+        
+        }
+      .social-media {
+        margin-top: 6px;
+        cursor: pointer;
+
+        /* Styles for mobile devices */
+        @media (max-width: 767px) {
+          display: flex;
+          
+        }
+
+        /* Styles for tablets and small desktop screens */
+        @media (min-width: 768px) and (max-width: 991px) {
+          display: flex;
+        }
+
+        /* Styles for medium-sized desktop screens */
+        @media (min-width: 992px) and (max-width: 1199px) {
+          display: flex;
+          margin-left: 100px;
+        }
+
+        /* Styles for larger desktop screens */
+        @media (min-width: 1200px) {
+          display: flex;
+          margin-left: 300px;
+        }
+
+      }
+
+      .enlarged-icon {
+        font-size: 25px;
+      }
+      .link{
+
+
+          /* Styles for mobile devices */
+          @media (max-width: 767px) {
+            display: flex;
+            flex-direction: row;
+           
+            
+          }
+  
+          /* Styles for tablets and small desktop screens */
+          @media (min-width: 768px) and (max-width: 991px) {
+            flex-direction: row;
+            display: flex;
+            
+
+          }
+  
+        
+  
+      }
+      .logo{
+        width: 35px;
+        height: 35px;
+        
+      }
+.writelink{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Varela Round', sans-serif; 
+  font-weight: 400;
+  font-size: large;
+  justify-content: center;
+  align-items: center;
+  color: #444;
+  text-decoration: none;
+
+}
+.writelink:hover{
+  font-size: 19px;
+        border-bottom: 1px solid grey;
+}
+.wr{
+  font-family: 'Varela Round', sans-serif; 
+  font-weight: 600;
+  
+  justify-content: center;
+  align-items: center;
+  color: #444;
+  text-decoration: none;
+}

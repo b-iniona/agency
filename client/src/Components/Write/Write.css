@@ -1,0 +1,139 @@
+.write{
+    padding-top:108px ;
+    background-color: #faf6f6;
+    @media (max-width: 767px) {
+        padding-top:108px ;
+    }
+}
+.writeForm{
+    align-items: center;
+    position: relative;
+    margin-left: 150px;
+    @media (max-width: 767px) {
+        margin-left: 50px;
+    }
+}
+.writeFormGroup{
+    align-items: center;
+}
+
+.writeInput{
+   
+    font-size: 18px;
+    
+    width: 100%;
+    padding: 20px;
+    border:1px solid teal;
+    border-radius: 7px;
+    @media (max-width: 767px) {
+        font-size: 18px;
+        border:1px solid teal;
+    border-radius: 7px;
+    }
+}
+.writeInputDesc{
+   
+    font-size: 25px;
+    
+    width: 100%;
+    padding: 20px;
+    border:1px solid teal;
+    border-radius: 7px;
+    @media (max-width: 767px) {
+        font-size: 22px;
+        border:1px solid teal;
+        padding: 80px 80px;
+    border-radius: 7px;
+    }
+}
+.writeInput:focus{
+    outline: none;
+}
+.writeText{
+    font-size: 20px;
+}
+
+
+.icon{
+   
+    font-size: 25px;
+    height: 25px;
+    width: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+    color: grey;
+    margin: 5px;
+    @media (max-width: 767px) {
+        
+      }
+
+}
+.writeSubmit{
+    
+    position: relative;
+    width: 100px;
+        height: 50px;
+        margin: 0 100px;
+    border-radius: 10px;
+    background-color: teal;
+    padding: 10px;
+    color: aliceblue;
+    border: none;
+    @media (max-width: 767px) {
+        
+        position: relative;
+        border-radius: 10px;
+        background-color: teal;
+        padding: 10px;
+        color: aliceblue;
+        border: none;
+        width: 100px;
+        height: 50px;
+        margin: 0 100px;
+        
+      }
+}
+.writeSubmit:hover{
+    background-color: rgb(60, 182, 182);
+
+}
+.writeInputGroup{
+    
+    margin: 5px;
+    border: none;
+    @media (max-width: 767px) {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+.postImg{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+.write {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .postImg {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 16px;
+  }
+  
+  .postImg img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 8px; /* Add a margin-bottom to create a gap */
+  }
+  .uploadFile{
+    font-family: 'Varela Round', sans-serif;
+
+  }

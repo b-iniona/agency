@@ -1,0 +1,37 @@
+.read{
+    font-family: 'Varela Round', sans-serif;
+    background-color: #faf6f6;
+    
+}
+.subscribers{
+    font-family: 'Varela Round', sans-serif;
+    position: relative;
+
+}
+.subscribers::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    text-shadow: 2px 2px 4px grey;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 1px;
+    background-color: grey;
+}
+.email{
+    text-decoration: solid;
+    color: rgb(23, 23, 109);
+    justify-content: flex-start;
+
+}
+.email:hover{
+    font-size: 1.2rem;
+}
+.clickemail{
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.email-list{
+    justify-content: flex-start;
+}

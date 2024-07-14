@@ -1,0 +1,42 @@
+    .footer{
+     
+      background-color: rgba(4,6,5,255);
+      font-size: 0.8em;
+      font-weight: 200;
+      /* border-radius: 7px; */
+      
+      font-family: 'Varela Round', sans-serif;
+}
+    .inputWrapper{
+      font-family: 'Varela Round', sans-serif;
+
+    }
+    .btn{
+      height: 42px;
+      width: 90px;
+      border-radius: 7px;
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 13px;
+    }
+        
+    .hoverLink{
+      cursor: pointer;
+    }
+    .hoverLink:hover{
+            
+      font-size: 30px;}
+    .copy{
+      font-size: 13px;
+      font-weight: bolder;
+      font-family: 'Josefin Sans', sans-serif;
+    }
+    .developer:hover{
+      font-size: 15px;
+      font-weight: bolder;
+      font-family: 'Josefin Sans', sans-serif;
+    }
+    
+        
+
+
+

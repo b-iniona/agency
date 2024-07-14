@@ -1,0 +1,13 @@
+.icon{
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .socialMediaWrapperr {
+      justify-content: center;
+    }
+  }
+  
+  .socialMediaWrapperr {
+    justify-content: center;
+   }

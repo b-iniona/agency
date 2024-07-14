@@ -1,0 +1,64 @@
+
+
+.HomeTitles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lora', sans-serif;
+    color: #444;
+    
+}
+
+.HomeTitle-sm {
+    @media (max-width: 767px) {
+        font-size: 18px;
+        
+      }
+    
+      /* Styles for tablets and small desktop screens */
+      @media (min-width: 768px) and (max-width: 991px) {
+        
+      }
+    position: absolute;
+    top: 18%;
+    font-size: 30px;
+    font-weight: 600;
+    color: #faf6f6;
+    font-family: 'Josefin Sans', sans-serif;
+
+    
+    
+}
+.HomeTitle-lg::first-letter{
+    font-size: 2em;
+}
+
+.HomeTitle-lg {
+    @media (max-width: 767px) {
+        font-size: 11.5px;
+        align-items: end;
+        text-justify:end;
+        
+      }
+    
+      /* Styles for tablets and small desktop screens */
+      @media (min-width: 768px) and (max-width: 991px) {
+        
+      }
+    position: absolute;
+    top: 30%;
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+.headerImg {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+.black{
+    color: #444;
+}

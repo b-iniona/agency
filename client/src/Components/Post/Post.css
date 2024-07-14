@@ -1,0 +1,95 @@
+.post{
+    width: 385px;
+    margin: 0px 25px 40px 25px;
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
+ 
+    background-color: #faf6f6;
+    border-radius: 7px;
+    transition: background-color .8s ease;
+}
+
+.post:hover{
+    /* background-color: lightskyblue; */
+    background-color: #a5e4f5;
+    
+    color: black;
+    
+}
+
+.postInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.postCatSeeMore{
+    
+    color: grey;
+    font-weight: bold;
+    
+}
+
+.postTitle{
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bolder;
+    font-size: 22px;
+    margin: 15px 5px 0 5px;
+    cursor: pointer;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.postTitle:hover{
+    font-size: 25px;
+    color: black;
+    overflow: visible;
+    -webkit-box-orient:unset;
+
+    
+
+}
+
+.postDate{
+    font-family: 'Lora', serif;
+    color: #999;
+    margin-top: 5px;
+    font-size: 13px;
+}
+.postDesc{
+    font-family: 'Varela Round', sans-serif;
+    
+    
+    line-height: 30px;
+    columns: #444;
+    
+    margin: 5px 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    font-size: 18px;
+    
+    
+
+}
+.postDesc:first-letter{
+    font-size: 2em;
+}
+.Link{
+    text-decoration: none;
+    color: black;
+}
+.Link:hover{
+    text-decoration: none;
+    color: black;
+}
+
+    
+    
+    
+    

@@ -1,0 +1,35 @@
+.emailSubscribtion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'Varela Round', sans-serif;
+    position: relative;
+    }
+  
+.emailSubscribtion::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    text-shadow: 2px 2px 4px grey;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 250px;
+    height: 1px;
+    background-color: grey;
+}
+  .subscribe{
+    background-color: teal;
+  }
+  .subscribe:hover {
+    color: white;
+    background-color: rgb(6, 163, 163);
+  }
+  .subscribeParagraph{
+    font-family: 'Josefin Sans', sans-serif;
+
+  }
+  .inputEmail{
+    width: 70%;
+    border-color:teal;
+  }

@@ -1,0 +1,112 @@
+.singlePost {
+    flex: 12;
+    background-color: #faf6f6;
+}
+
+.singlePostWrapper {
+    padding: 20px;
+    margin: 50px 10px 0 10px; /* Adjusted margin for smaller screens */
+    background-color: #faf6f6;
+    border-radius: 7px;
+}
+
+.singlePostTitle {
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    margin: 10px;
+    font-size: 24px; /* Adjusted font size for smaller screens */
+}
+
+.singlePostInfo {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 14px; /* Adjusted font size for smaller screens */
+}
+
+.singlePostDescInput {
+    color: #444;
+    line-height: 1.5;
+    font-size: 16px; /* Adjusted font size for smaller screens */
+    font-family: 'Varela Round', sans-serif;
+}
+
+.singlePostIcon {
+    margin-left: 5px; /* Adjusted margin for smaller screens */
+    cursor: pointer;
+}
+
+.singlePostButton {
+    background-color: teal;
+    padding: 5px;
+    color: whitesmoke;
+    width: 80px; /* Adjusted width for smaller screens */
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: center; /* Centering the button */
+    margin-top: 20px;
+}
+
+.singleLink {
+    line-height: 1.5;
+    font-size: 16px; /* Adjusted font size for smaller screens */
+    font-family: 'Varela Round', sans-serif;
+    text-decoration: none;
+}
+
+.linksContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.writeInputDesc {
+    font-size: 18px; /* Adjusted font size for smaller screens */
+    width: 100%;
+    padding: 15px; /* Adjusted padding for smaller screens */
+    border: 1px solid teal;
+    border-radius: 7px;
+}
+
+.writeText {
+    font-size: 16px; /* Adjusted font size for smaller screens */
+}
+
+.download {
+    background-color: teal;
+    color: white;
+}
+
+.download:hover {
+    background-color: rgb(10, 170, 170);
+    color: white;
+}
+
+.document {
+    border: solid 1px grey;
+    border-radius: 7px;
+    color: #444;
+}
+.singlePostIcon:first-child{
+    color: teal;
+}
+
+.singlePostIcon:last-child
+{
+    color: tomato;
+    padding-left: 5px;
+}
+.delete{
+    color: tomato;
+    font-size: .5em;
+
+}
+.edit{
+    color: teal;
+    font-size: .5em;
+}
+.singlePostDescInput::first-letter {
+    font-size: 2em;
+}

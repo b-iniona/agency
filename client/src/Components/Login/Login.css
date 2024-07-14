@@ -1,0 +1,107 @@
+    .background {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #abe9fa;
+        background-image: url(../../Images/admin.jpg);
+
+
+
+    }
+
+    .login.container {
+        background-color: transparent;
+        border: none;
+
+    }
+
+    .login {
+        width: 300px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f2f2f2;
+        border-radius: 25px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .formWrapper {
+        margin-top: 108px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    label {
+        margin-bottom: 5px;
+    }
+
+    input {
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+
+    button {
+        padding: 10px 20px;
+        background-color: teal;
+        color: white;
+        border: none;
+        border-radius: 7px;
+        cursor: pointer;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .loginText {
+        font-family: 'Josefin Sans', sans-serif;
+        
+
+    }
+
+    #usernameText,
+    #passwordText,#emailText {
+        font-family: 'Josefin Sans', sans-serif;
+
+    }
+
+    #username,
+    #password {
+        border-radius: 7px;
+    }
+    .submit{
+        text-decoration: none;
+        color:white;
+    }
+   
+    .loginBtn{
+        background-color: teal;
+    }
+    .loginBtn:hover{
+      background-color: rgb(60, 182, 182);
+    }
+    .loginBtn:disabled{
+        background-color:  tomato;
+        cursor: not-allowed;
+    }
+    .error{
+        margin: 10px 0;
+        color: red;
+        font-weight: bolder;
+        border-radius: 7px;
+        justify-content: center;
+    }
+    .submit:hover{
+        background-color: rgb(60, 182, 182);
+
+    }
+   .For04{
+    background-color: #91daee;
+    padding: 150px 0;
+
+   }
